@@ -21,6 +21,11 @@ Rails.application.routes.draw do
   put "/products/:id", to: "products#update"
 
   delete "/products/:id", to: "products#destroy"
+
+  post '/cart/add_product', to: 'carts#add_product'
+  get '/cart/total', to: 'carts#total'
+
+  
   root "products#index"
 
 end
