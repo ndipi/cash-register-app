@@ -49,6 +49,8 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+  gem 'rspec-rails', '~> 5.0'
+
 end
 
 group :test do
@@ -63,3 +65,4 @@ gem "shakapacker", "= 8.1"
 gem "react-rails", "= 3.2"
 
 gem "pg", ">= 0"
+
