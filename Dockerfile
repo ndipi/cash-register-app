@@ -35,7 +35,7 @@ RUN bundle exec rails assets:precompile
 
 # Expose ports
 EXPOSE 3000
-# EXPOSE 3035
+EXPOSE 3035
 
 # Start the Rails server
 CMD ["bundle", "exec", "rails", "server", "-b", "0.0.0.0"]
