@@ -7,3 +7,20 @@
 #   ["Action", "Comedy", "Drama", "Horror"].each do |genre_name|
 #     MovieGenre.find_or_create_by!(name: genre_name)
 #   end
+# db/seeds.rb
+
+Product.find_or_create_by!(code: 'GR1') do |product|
+    product.name  = 'Green Tea'
+    product.price = 3.11
+  end
+  
+  Product.find_or_create_by!(code: 'SR1') do |product|
+    product.name  = 'Strawberries'
+    product.price = 5.00
+  end
+  
+  Product.find_or_create_by!(code: 'CF1') do |product|
+    product.name  = 'Coffee'
+    product.price = 11.23
+  end
+  
