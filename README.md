@@ -20,7 +20,7 @@ This application is a cash register system built with Ruby on Rails and React. I
 
 1. Docker and Docker Compose installed.
   
-2. Build the containers:
+2. Inside the project, build the containers writing this in terminal:
   
   `docker compose build`
   
